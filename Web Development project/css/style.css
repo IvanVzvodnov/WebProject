@@ -1,0 +1,96 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#838383;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo{
+    font-size: 25px;
+    color: #212121;
+    font-weight: 700;
+}
+
+/* Header */
+.header{
+    padding: 27px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+/* Intro */
+.intro{
+    text-align: center;
+    width: 100%;
+    height: 655px;
+    background: url(../images/header.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;color: #fff;
+}
+
+.intro__title{
+    padding-top: 180px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.intro__subtitle{
+    font-size: 22px;
+}
+
+.intro__btns{
+    margin-top: 80px;
+    display: inline-block;
+    padding-top: 10px;  
+    width: 180px;
+    height: 50px;
+    /* background-color: #00897b; */
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.intro__btns:hover{
+    background-color: #00897b;
+    border:none 
+}
+
+/* Nav */
+.nav{
+    color:#212121;
+}
+
+.nav__link{
+    text-decoration: none;
+    margin: 0 25px;
+    color: #212121;
+    font-size: 20px;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
